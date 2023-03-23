@@ -6,3 +6,8 @@ spring:
 
 app:
    key: default
+management:
+   endpoint:
+       web:
+          exposure:
+              include: "*"   
