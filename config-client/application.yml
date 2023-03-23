@@ -1,0 +1,8 @@
+server:
+  port: 8761
+spring:
+  application:
+      name: config-client
+
+app:
+   key: default
